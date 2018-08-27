@@ -33,7 +33,7 @@ gpu_id = args.gpu_id
 start_index = args.start_index
 end_index = args.end_index
 
-path_given = "/home/saa2/work/temporal-segment-networks/data/ucf101_frames"
+path_given = "../../../../data/hmdb51_frames"
 paths = os.listdir(path_given)
 paths.sort()
 # Params for change
