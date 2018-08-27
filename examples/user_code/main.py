@@ -11,8 +11,10 @@ def run(item):
 
 def main():
     pool = Pool(4)
-    path_given = "/home/saa2/work/temporal-segment-networks/data/ucf101_frames"
-    gpu_ids = [0,1,3,4]
+    path_given = "../../../../data/hmdb51_frames"
+    
+    #Pick which GPUs you would want to use in your system
+    gpu_ids = [0,1,2,3,4]
 
     dirs = os.listdir(path_given)
     length = len(dirs)
